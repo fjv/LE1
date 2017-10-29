@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		854B97BE1FA5CB9A001D92BB /* DDController.m in Sources */ = {isa = PBXBuildFile; fileRef = 854B97BD1FA5CB9A001D92BB /* DDController.m */; };
+		854B97C11FA5CD10001D92BB /* DDView.m in Sources */ = {isa = PBXBuildFile; fileRef = 854B97C01FA5CD10001D92BB /* DDView.m */; };
 		85B139251FA5914200E0A518 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 85B139241FA5914200E0A518 /* main.m */; };
 		85B139281FA5914200E0A518 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 85B139271FA5914200E0A518 /* AppDelegate.m */; };
 		85B1392B1FA5914200E0A518 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 85B1392A1FA5914200E0A518 /* ViewController.m */; };
@@ -16,6 +18,10 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		854B97BC1FA5CB9A001D92BB /* DDController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DDController.h; sourceTree = "<group>"; };
+		854B97BD1FA5CB9A001D92BB /* DDController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DDController.m; sourceTree = "<group>"; };
+		854B97BF1FA5CD10001D92BB /* DDView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DDView.h; sourceTree = "<group>"; };
+		854B97C01FA5CD10001D92BB /* DDView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DDView.m; sourceTree = "<group>"; };
 		85B139201FA5914200E0A518 /* LE1.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LE1.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		85B139241FA5914200E0A518 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		85B139261FA5914200E0A518 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -62,11 +68,15 @@
 				85B139271FA5914200E0A518 /* AppDelegate.m */,
 				85B139291FA5914200E0A518 /* ViewController.h */,
 				85B1392A1FA5914200E0A518 /* ViewController.m */,
+				854B97BF1FA5CD10001D92BB /* DDView.h */,
+				854B97C01FA5CD10001D92BB /* DDView.m */,
 				85B1392C1FA5914200E0A518 /* Main.storyboard */,
 				85B1392F1FA5914200E0A518 /* Assets.xcassets */,
 				85B139311FA5914200E0A518 /* LaunchScreen.storyboard */,
 				85B139341FA5914200E0A518 /* Info.plist */,
 				85B139231FA5914200E0A518 /* Supporting Files */,
+				854B97BC1FA5CB9A001D92BB /* DDController.h */,
+				854B97BD1FA5CB9A001D92BB /* DDController.m */,
 			);
 			path = LE1;
 			sourceTree = "<group>";
@@ -151,8 +161,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				85B1392B1FA5914200E0A518 /* ViewController.m in Sources */,
+				854B97BE1FA5CB9A001D92BB /* DDController.m in Sources */,
 				85B139281FA5914200E0A518 /* AppDelegate.m in Sources */,
 				85B139251FA5914200E0A518 /* main.m in Sources */,
+				854B97C11FA5CD10001D92BB /* DDView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -309,6 +321,7 @@
 				85B139391FA5914200E0A518 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
